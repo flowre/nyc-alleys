@@ -22,6 +22,15 @@ nav > * {
   margin: 2%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
 #map {
   flex: 9 0 0;
 }
