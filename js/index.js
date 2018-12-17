@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       accessToken: 'pk.eyJ1IjoiZmx4bWR5IiwiYSI6ImNqbHB4YnRxNjA2a3Izc3F3a2E5dWF2czYifQ.suDzu_w_2m97miGg1M3o3g'
     }).addTo(map);
 
-  fetch("https://data.cityofnewyork.us/resource/mxmc-6x6d.json?rw_type=10&%24limit=20000")
+  fetch("https://data.cityofnewyork.us/resource/c86u-9g2i.json?rw_type=10&%24limit=20000")
     .then(res => res.json())
     .then(json => json.map(x => x.the_geom))
     .then(geoms => L.geoJSON(geoms).addTo(map))
