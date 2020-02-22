@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
-      id: 'mapbox.satellite',
+      id: 'mapbox.streets',
       accessToken: 'pk.eyJ1IjoiZmx4bWR5IiwiYSI6ImNqbHB4YnRxNjA2a3Izc3F3a2E5dWF2czYifQ.suDzu_w_2m97miGg1M3o3g'
     }).addTo(map);
 
